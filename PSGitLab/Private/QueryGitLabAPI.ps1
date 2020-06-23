@@ -84,8 +84,11 @@ Function QueryGitLabAPI {
     }
 
     foreach ($Result in $Results) {
-        $Result.pstypenames.insert(0,$ObjectType)
-        Write-Output $Result
+		if($ObjectType)
+		{
+			$Result.pstypenames.insert(0,$ObjectType)
+		}
+		Write-Output $Result
     }
 
 }
