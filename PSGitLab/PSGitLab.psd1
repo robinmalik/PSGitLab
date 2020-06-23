@@ -80,6 +80,7 @@ FunctionsToExport = @(
     'Get-GitLabPipeline',
     'Get-GitLabProject',
     'Get-GitLabProjectArchive',
+    'Get-GitLabProjectBranch',
     'Get-GitLabProjectCommit',
     'Get-GitLabProjectEvent',
     'Get-GitLabProjectRepositoryTree',
